@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password GENERATOR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <div class="pwd-container">
+        <div class="pwd-cont">
+            <div class="head">
+                <h3 class='text-left'>Password Generator</h3>
+            </div>
+            <hr>
+            <div class="pwd-body">
+                <div class="pwd-inp">
+                    <div class="clear-fix">
+                        <div class="float-left">
+                            <input type="screen" id='pwdoup' class="form-control">
+                        </div>
+                        <div class="float-right">
+                            <button class="btn text-white pwdcopy">Copy</button>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="pwd-strong">
+                        <div class="progress-cont">
+                            <div class="progress-bars pwd-bar"></div>
+                        </div>
+                        <p class='pwd-strong-txt'>Strong</p>
+                    </div>
+                </div>
+
+                <div class="pwd-controls">
+                     <div class="grid">
+                         <div class="pwd-length">
+                             <span>Length</span>
+                             <input type="range" min="0" steps='.2' max="100" value="10" class="pwd-slider">
+                             <span class="pwd-length-oup"></span>
+                         </div>
+                         <div class="chkbox">
+                             <div class="clear-fix">
+                                 <div class="float-left">
+                                     <ul>
+                                         <li>
+                                             <input type="checkbox" class="lower">
+                                         </li>
+                                         <li>
+                                             <input type="checkbox" class="upper">
+                                         </li>
+                                         <li>
+                                             <input type="checkbox" class="number">
+                                         </li>
+                                         <li>
+                                             <input type="checkbox" class="symbol">
+                                         </li>
+                                     </ul>
+                                 </div>
+                                 <div class="float-right">
+                                     <ul>
+                                         <li>Lowercase</li>
+                                         <li>Uppercase</li>
+                                         <li>Number</li>
+                                         <li>Symbol</li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <button class="pwdgenbtn btn-block">Generate Password</button>
+            </div>
+        </div>
+    </div>
+   <!-- overlay -->
+    <script src="app.js"></script>
+</body>
+</html>

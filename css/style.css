@@ -1,0 +1,104 @@
+body{
+    width:100%;
+    height:100vh;
+    overflow-x:hidden;
+    margin:0px;
+    padding:0px;
+   background:#000000 !important;
+   position: relative;
+}
+
+.pwd-container{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.pwd-container .pwd-cont{
+    max-width:100%;
+    padding:30px;
+    background: linear-gradient(250deg, #161e29,#252d3a);
+    color:#fff;
+}
+.pwd-cont hr{
+    background:#fff;
+}
+.pwd-cont .pwd-body{
+
+}
+.pwd-cont .pwd-body .pwd-inp input{
+    background:#161e29;
+    border:none;
+    padding:10px;
+    margin-right:4px;
+    box-shadow:inset 0px 0px 3px #ffffff;
+}
+.pwd-cont .pwd-body .pwd-inp input{
+    color:#fff;
+}
+.pwd-cont .pwd-body .pwd-inp .btn{
+    padding:5px;
+    font-size:12px;
+    background:rgb(51, 40, 218);
+}
+
+.pwd-container .pwd-strong .progress-cont{
+    background: rgb(0, 0, 0);
+    height:5px;
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.pwd-container .pwd-strong .progress-bars{
+    border-radius:none !important;
+    height:20px;
+    background: linear-gradient(#0ea70e, #008000);
+    width:50px;
+}
+
+.pwd-container .pwd-length{
+    width:100%;
+    margin:10px;
+    font-size:14px;
+    font-weight:500;
+    padding:20px;
+}
+.pwd-container .pwd-length .pwd-slider{
+    appearance: none;
+  width: 100%; /* Full-width */
+  height: 5px; /* Specified height */
+  background: linear-gradient(90deg, #ca097a, #8e2ceb); /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+.pwd-container .pwd-length .pwd-slider::-webkit-slider-thumb,.pwd-container .pwd-length .pwd-slider::-moz-range-thumb{
+     -webkit-appearance: none;
+    appearance: none;
+    width:20px;
+    width:20px;
+    border-radius:50%;
+    background:#fff !important;
+}
+.pwd-container .chkbox ul{
+    list-style:none;
+}
+.pwd-container .chkbox input[type ='checkbox']{
+   height: 20px;
+  width: 20px;
+  background-color: #2619cf;
+}
+.pwd-container .chkbox input:checked{
+  background-color: #2196F3;
+}
+
+.pwd-container .pwdgenbtn{
+    border:none;
+    padding:10px;
+    border-radius:30px;
+    background: #000;
+    color:#fff;
+    border:3px solid #97055f;
+}
